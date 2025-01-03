@@ -15,7 +15,7 @@ A regression model is created and trained using the train_dataset and train_labe
 ### Evaluation Criteria
 The model must achieve a Root Mean Squared Error (RMSE) of under $5000 in 50 epochs when evaluated using the model.evaluate() method. This ensures that the model predicts healthcare costs accurately within a $5000 range. If the model is trained for more epochs the RMSE can be brought under below $3500.
 ### Visualization
-The final step includes predicting healthcare expenses using the test_dataset and visualizing the results to assess the model's performance.
+The final step includes predicting healthcare expenses using the test_dataset and visualizing the results to assess the model's performance.                                                 
 ![img](https://github.com/G-Kamalesh/DNN_Linear_Regression/blob/main/test_predict.JPG?raw=true)
 # Requirements
 Python 3.8+
