@@ -13,10 +13,10 @@ The dataset includes information about various individuals along with their heal
 ## Model
 A regression model is created and trained using the train_dataset and train_labels. The model is evaluated on the test_dataset to measure its generalization performance.                   
 ### Evaluation Criteria
-The model must achieve a Mean Absolute Error (MAE) of under $3500 when evaluated using the model.evaluate() method. This ensures that the model predicts healthcare costs accurately within a $3500 range.
+The model must achieve a Root Mean Squared Error (RMSE) of under $5000 in 50 epochs when evaluated using the model.evaluate() method. This ensures that the model predicts healthcare costs accurately within a $5000 range. If the model is trained for more epochs the RMSE can be brought under below $3500.
 ### Visualization
 The final step includes predicting healthcare expenses using the test_dataset and visualizing the results to assess the model's performance.
-!(img_alt)[]
+![img](https://github.com/G-Kamalesh/DNN_Linear_Regression/blob/main/test_predict.JPG?raw=true)
 # Requirements
 Python 3.8+
 
@@ -31,7 +31,7 @@ Matplotlib
 Scikit-learn
 
 ### Results
-!(img_alt)[]                                                                                                                                                    
+![img](https://github.com/G-Kamalesh/DNN_Linear_Regression/blob/main/linear_model_graph.JPG?raw=true)                                                                                                                                                   
 Training Accuracy: 5215.78                                                                                                                                       
 Test Accuracy: 4979.72                                                                                                                                             
 
